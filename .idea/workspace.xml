@@ -90,8 +90,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="383" />
+    <option name="x" value="300" />
+    <option name="y" value="171" />
     <option name="width" value="946" />
     <option name="height" value="741" />
   </component>
@@ -223,6 +223,17 @@
       <updated>1557713504878</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="EncryptTest - 2019.05.13 at 05h 19m 58s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.05.13 at 05h 22m 20s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.05.13 at 05h 22m 57s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="383" width="946" height="741" extended-state="0" />
