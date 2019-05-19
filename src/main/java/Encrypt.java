@@ -1,5 +1,17 @@
 public class Encrypt {
+    private String mInputString = "abc";
+    private int mShift = 2;
+
+    public String getmInputString() {
+        return mInputString;
+    }
+
+    public int getmShift() {
+        return mShift;
+    }
+
     public static String encrypt(String inputString, int shift){
+
         if(shift > 26){
             shift = shift % 26;
         }
