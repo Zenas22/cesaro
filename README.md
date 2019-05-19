@@ -16,10 +16,11 @@ This program uses the Caesar Cipher method of encryption to encrypt the messages
 
 
 ### Setup Installation Requirement
-To access this project, you will need to access it from github then clone it. Then run 'git clone https://github.com/zenas22/cesaro' on your terminal.
+To access this project, you will need to access it from github then clone it. Then run 'java App' on your terminal.
 
 ### Technologies Used
 Java
+
 ASCII
 
 ### Support or questions
