@@ -1,3 +1,4 @@
+import java.io.Console;
 import java.util.Scanner;
 
 public class App {
@@ -20,8 +21,10 @@ public class App {
                 System.out.println("Enter a key");
                 int key = myScanner.nextInt();
                 System.out.println("============================");
+                Encrypt cipher = new Encrypt(input,key);
+                String encrypted = Encrypt.encrypt(cipher);
 
-                System.out.println("Encrypted message: " + Encrypt.encrypt(input, key));
+                System.out.println("Encrypted message: " + encrypted);
                 System.out.println("============================");
                 System.out.println("============================");
                 System.out.println("============================");
@@ -33,8 +36,10 @@ public class App {
                 System.out.println("Enter the key you used");
                 int namba = myScanner.nextInt();
                 System.out.println("============================");
+                Decrypt ceaser = new Decrypt(sema,namba);
+                String decrypted = Decrypt.decrypt(ceaser);
 
-                System.out.println("Decrypted message: " + Decrypt.decrypt(sema, namba));
+                System.out.println("Decrypted message: " + decrypted);
                 System.out.println("============================");
                 System.out.println("============================");
                 System.out.println("============================");
